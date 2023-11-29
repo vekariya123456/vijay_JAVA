@@ -27,5 +27,31 @@
 
 // a=30
 
-const b = 50;
-console.log(b);
+// const b = 50;
+// console.log(b);
+
+// var a = 10;
+// console.log("outside: ",a); //10
+
+// {
+//     var a = 30;
+//     console.log("inside: ",a); //30
+// }
+// console.log("outside: ",a); //30
+
+// let a = 10;
+// console.log("outside: ",a);//10
+
+// {
+//     let a = 30;
+//     console.log("inside: ",a);//30
+// }
+// console.log("outside: ",a); //10
+
+//Hoisting
+
+// console.log(a);
+// var a;
+
+// console.log(a);
+// let a;
