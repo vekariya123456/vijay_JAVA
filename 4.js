@@ -1,3 +1,5 @@
+/* Program => 1.
+
 let total;
 
 let unit=Number(prompt("Enter Unit= "));
@@ -8,7 +10,7 @@ if(unit>=0 && unit<=100)
     total = (unit*0.60)+50;
 }
 
-else if(unit>100 && unit>=300)
+else if(unit>100 && unit<=300)
 {
     total = 60 + (unit-100)*0.80 + 50; 
 }
@@ -28,3 +30,23 @@ else
 {
     console.log("The Total is: "+total);
 }
+
+*/
+
+/* Program =>2.
+
+let age;
+
+age=(Number(prompt("Enter Age=")));
+
+if(age>=18)
+{
+    console.log("Person is Eligible For Voting");
+}
+else
+{
+    console.log("Person Is Not Eligible For Voting");
+}
+
+*/
+
