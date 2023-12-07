@@ -60,7 +60,7 @@
 // console.log(Math.log(2));   //0.69314718055
 // console.log(Math.log(10));   //2.330258509299
 
-// console.log(Math.log2(8));   //3
+console.log(Math.log2(8));   //3
 
-// console.log(Math.log10(1000));  //3
+console.log(Math.log10(1000));  //3
 
