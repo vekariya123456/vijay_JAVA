@@ -27,8 +27,8 @@
 
 
 //ES6
-// const x = (x, y) => x * y;
-// console.log(x(6, 6));
+// conste.lo x = (x, y) => x * y;
+// consolg(x(6, 6));
 
 
 
@@ -67,5 +67,14 @@
 
 //Argument Object //
 
-// x = sumAll(1, 2, 3, 4, 5, 6);
-
+// x = sumAll(1, 2, 3, 4, 5, 6, 7, 8, 9 );
+// function sumAll()
+// {
+//     let sum = 0;
+//     for (let i = 0; i < arguments.length; i++)
+//     {
+//         sum =sum + arguments[i];    
+//     }
+//     return sum;
+// }
+// console.log(x);
