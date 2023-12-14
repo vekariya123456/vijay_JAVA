@@ -97,8 +97,136 @@
 // console.log(data.sort());
 
 
-//Numeric Sort
+//  || Numeric Sort ||
 
 // let data = [90, 44, 5, 45, 25, 6, 29, 95];
-// data.sort(function (a, b) { return a - b });
+// data.sort((a, b) => a - b );
 // console.log(data);
+
+
+//  || Array REverse  ||
+// let data = [11, 22, "Orange", "Apple", 66];
+// // data.sort();
+// data.reverse();
+// console.log(data);
+
+
+
+
+//   || ARRAY MAX  ||
+
+// let data = [11, 22, 33, 44, 55, 66, 77, 88,];
+
+// MaxNum = (a) => {
+//     return Math.max.apply(null, a)
+// };
+// console.log(MaxNum(data));
+
+
+
+//   || ARRAY MIN  ||
+// let data = [11, 22, 33, 1, 99, 44, 55, 66, 77, 88,];
+
+// MinNum = (a) => {
+//     return Math.min.apply(null, a)
+// };
+// console.log(MinNum(data));
+    
+    
+    
+//    || ARRAY FOREACH  ||
+    
+// let data = [11, 22, 33, 1, 99, 44, 55, 66, 77, 88,];
+
+// let a = "";
+// data.forEach((val, index) => {
+//     a = a + " " + val*2;
+// })
+// console.log(a);
+
+
+//    ||ARRAY MAP  ||
+
+// let data = [11, 22, 33, 1, 99, 44, 55, 66, 77, 88,];
+// let a = [];
+// a = data.map((val, index) => {
+//     return val - 5;
+// })
+// console.log(a);
+
+
+
+
+//    || ARRAY FILTER ||
+
+// let data = [11, 22, 33, 44, 55, 66, 77, 88,];
+// let a = [];
+// a = data.filter((val, index) => {
+//     return val <= 33
+// })
+// console.log(a);
+
+
+//    || ARRAY REDUCE  ||
+// let data = [11, 22, 33, 44, 55, 66, 77, 88 ,4];
+
+// let abc;
+// abc = data.reduceRight((a, val, index) => {
+//     return a + val;
+// })
+// console.log(abc);
+
+
+//     || ARRAY SOME ||
+
+// let data = [11, 22, 33, 44, 55, 66, 77, 88];
+// let abc;
+// abc = data.some((val, index) => {
+//     return val < 25;
+// })
+// console.log(abc);
+
+
+
+//    || ARRAY EVERY ||
+// let data = [11, 22, 33, 44, 55, 66, 77, 88];
+// let abc;
+// abc = data.every((val, index,array) => {
+//     return val <= 99;
+// })
+// console.log(abc);
+
+
+//   || ARRAY FIND  ||
+// let data = [11, 22, 33, 44, 55, 66, 77, 88];
+// let abc;
+// abc = data.find((val, index) => {
+
+//     return val >= 35;
+// })
+// console.log(abc);
+
+
+
+//   || ARRAY FINDINDEX ||
+
+// let data= [11, 22, 33, 44, 55, 66, 77, 88];
+// let abc;
+// abc = data.findIndex((val, index) => {
+//     return val >= 25;
+// })
+// console.log(abc);
+
+
+//   ||ARRAY ENTRIES  ||
+// let data = [11, 22, 33, 44, 55, 66, 77, 88];
+// let abc = data.entries();
+
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+// console.log(abc.next().value);
+
