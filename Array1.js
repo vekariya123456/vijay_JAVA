@@ -34,7 +34,7 @@
 
 
 
-//  || shift => DElete Elment in First position ||
+//  || shift => Delete Elment in First position ||
 
 // let data = [11, 22, 33, 44, "kiwi", 66, 77];
 // console.log(data);
@@ -230,3 +230,18 @@
 // console.log(abc.next().value);
 // console.log(abc.next().value);
 
+
+//    ||ARRAY INCLUDES ||
+
+// let arr = [10, 20, 30, 40, 50, 60];
+// let data;
+// data = arr.includes(30);
+// console.log(data);
+
+
+
+//   || ARRAY COPYWITHIN ||
+
+// let data = [10, 20, 30, 40, 50, 60, 70, 80];
+// console.log(data);
+// console.log(data.copyWithin(0, 4, 7));
