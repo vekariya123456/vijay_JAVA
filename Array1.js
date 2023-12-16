@@ -104,7 +104,7 @@
 // console.log(data);
 
 
-//  || Array REverse  ||
+//  || Array Reverse  ||
 // let data = [11, 22, "Orange", "Apple", 66];
 // // data.sort();
 // data.reverse();
