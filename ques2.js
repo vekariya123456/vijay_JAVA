@@ -7,7 +7,7 @@
 
 
 
-//RETURN FIRST CHARACTER OF WORD IN ALPHABAT
+// || RETURN FIRST CHARACTER OF WORD IN ALPHABAT ||
 
 // const text1 = "the quick brown box";
 // const text2 = text1.toUpperCase();
@@ -37,18 +37,20 @@
 
 //  ||FIND LONGEST WORD IN STRING ||
 
-function Longestword(str) {
-    let words = str.split('');
-    let longest = '';
 
+let alph = prompt("Enetre your string: ");
+
+let r = longest_word(alph);
+console.log("Largest world: ", r);
+
+function longest_word(str) {
+    let words = str.split(' ');
+    let result = '';
+    
     for (let i = 0; i < words.length; i++){
-        if (words[i].length > longest.length) {
-            longest = words[i];
+        if (words[i].length > result.length) {
+            result = words[i];
         }
     }
-    return longest;
+    return result;
 }
-
-let inputstring = 'Web development tutorial';
-let longest = Longestword(inputstring);
-console.log(longest);
