@@ -3,5 +3,4 @@ function arr(str) {
     return a.sort().join('');
     
 }
-
-console.log(arr("vijay"));
+console.log(arr(prompt("Enter your string: ")));
