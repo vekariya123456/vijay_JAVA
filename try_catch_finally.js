@@ -106,7 +106,7 @@
 // try...catch...throw Example
 
 {
-    const number = 80;
+    const number = 20;
     try {
         if(number > 50) {
             console.log('Success');
@@ -122,6 +122,6 @@
     }
     catch(error) {
         console.log('An error caught'); 
-        console.log('Error message: ' + error);  
-    }
+        console.log('Error message: ' + error);
+    }
 }
