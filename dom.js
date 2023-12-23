@@ -92,6 +92,7 @@
     changeColors()
 }
 
+
 // class -> .className          id -> #id
 
 // querySelectorAll

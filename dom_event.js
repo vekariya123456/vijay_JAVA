@@ -9,7 +9,7 @@
 // }
 
 // function uppercase(){
-//     const change = document.getElementById("emails"); 
+//     const change = document.getElementById("emails");
 //     change.value = change.value.toUpperCase();
 // }
 
@@ -27,6 +27,7 @@
 //         obj.innerHTML="Thank You";
 //       }
 // }
+
 
 // /* JavaScript addEventListener() */
 
