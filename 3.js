@@ -23,7 +23,7 @@ let x=Number(prompt("Enter x: "));
 if(x > 0)
 {
     console.log("The Value is Poitive");
-}%
+}
 else
 {
     console.log("The Value is Negative");

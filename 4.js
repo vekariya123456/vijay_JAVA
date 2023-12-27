@@ -1,4 +1,4 @@
-/* Program => 1.
+// /* Program => 1.
 
 let total;
 
@@ -31,7 +31,7 @@ else
     console.log("The Total is: "+total);
 }
 
-*/
+// */
 
 /* Program =>2.
 

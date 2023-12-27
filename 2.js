@@ -13,7 +13,8 @@
 // console.log(10 === "10") // value check and data type check
 
 // console.log(5 != "5")
-// console.log(5 !== "5")
+// console.log(5 !=="5")
+
 
 // console.log(0^0)
 // console.log(0^1)

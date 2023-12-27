@@ -62,7 +62,7 @@
 
 
 
-let data = "JavaScript is the world's most popular programming language world."
+// let data = "JavaScript is the world's most popular programming language world."
 
 // console.log(data.replace("world's", "SkillQode"));
 // console.log(data.replace(/world/i, "SkillQode"));
@@ -81,4 +81,4 @@ let data = "JavaScript is the world's most popular programming language world."
 // console.log(txt.padStart(8, "*"));
 // console.log(txt.padEnd(8, "*"));
 
- console.log(data.split(" "));
+//  console.log(data.split(" "));

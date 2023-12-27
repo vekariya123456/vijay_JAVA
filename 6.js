@@ -13,6 +13,7 @@
 // console.log(data.has("BMW"));
 // console.log(data.keys());
 // console.log(data.values());
+// console.log(data);
 
 // let txt = "";
 // data.forEach((val, str) => {
@@ -25,11 +26,11 @@
 
 //set Method
 
-let arr = new Set(["BMW", "Audi", "Toyoto"]);
+// let arr = new Set(["BMW", "Audi", "Toyoto"]);
 
-// console.log(arr.size);
-arr.add(10);
-arr.add(100);
+// // console.log(arr.size);
+// arr.add(10);
+// arr.add(100);
 
 // arr.delete("Toyoto");
 // arr.clear();
